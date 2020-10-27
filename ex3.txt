@@ -1,0 +1,1 @@
+Most of the systems by deafult use line buffered stdout, therfore in the first example of a code we will get double printed "Hello" because stdout will not be flushed after printf function. In the second example stdout will be flushed, due to "\n" at the end of a string. This wouldnt be an issue if by default we used fully bufferd stdout.
